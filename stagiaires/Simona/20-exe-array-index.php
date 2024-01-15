@@ -12,4 +12,9 @@ echo $monTab[6] . '<hr>';
 echo $monTab[7] . '<hr>';
 echo $monTab[8] . '<hr>';
 echo $monTab[9] . '<hr>';
-?>
+
+
+$monTab = ['un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix'];
+foreach ($monTab as $element) {
+    echo $element . '<hr>';
+}
